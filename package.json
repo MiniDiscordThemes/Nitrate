@@ -1,8 +1,8 @@
 {
-    "name": "template-discord-theme",
+    "name": "nitrate-discord-theme",
     "version": "1.0.0",
-    "description": "A template Discord theme.",
-    "repository": "https://github.com/MiniDiscordThemes/Template.git",
+    "description": "A knockoff Nitro gradient Discord theme.",
+    "repository": "https://github.com/MiniDiscordThemes/Nitrate.git",
     "author": "Saltssaumure <saltssaumure@gmail.com>",
     "license": "MIT",
     "private": true,

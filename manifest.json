@@ -1,7 +1,7 @@
 {
-    "id": "net.saltssaumure.Template",
-    "name": "Template",
-    "description": "A template Discord theme.",
+    "id": "net.saltssaumure.Nitrate",
+    "name": "Nitrate",
+    "description": "A knockoff Nitro gradient Discord theme.",
     "author": {
         "name": "Saltssaumure",
         "discordID": "134142022092062720",
@@ -10,9 +10,9 @@
     "version": "1.0.0",
     "updater": {
         "type": "github",
-        "id": "MiniDiscordThemes/Template"
+        "id": "MiniDiscordThemes/Nitrate"
     },
     "license": "MIT",
     "type": "replugged-theme",
-    "main": "scss/temp.scss"
+    "main": "scss/nitro.scss"
 }

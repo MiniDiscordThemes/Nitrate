@@ -5,10 +5,10 @@
 [![GitHub downloads](https://img.shields.io/github/downloads/MiniDiscordThemes/Nitrate/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/MiniDiscordThemes/Nitrate/releases/latest "Latest release")
 ![Total size](https://img.shields.io/github/repo-size/MiniDiscordThemes/Nitrate?style=flat-square "Total size")
 
-***A knockoff Nitro gradient Discord theme. ***
+***A knockoff Nitro gradient Discord theme.***
 
-| Light mode                                                     | Dark mode                                                    |
-|----------------------------------------------------------------|--------------------------------------------------------------|
+| Light mode                                                    | Dark mode                                                   |
+| ------------------------------------------------------------- | ----------------------------------------------------------- |
 | ![Screenshot of Nitrate light mode applied to Discord][light] | ![Screenshot of Nitrate dark mode applied to Discord][dark] |
 
 ## Installation
@@ -35,19 +35,20 @@
 
 ## Customisation
 
-| Description       | Variable name     | Valid values               | Default value |
-|-------------------|-------------------|----------------------------|---------------|
-| Background colour | `--temp-bg-color` | Any CSS-recognised colour. | #000          |
+| Description             | Variable name                                                                | Valid values                                                                               | Default value          |
+| ----------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------- |
+| Custom gradient angle   | `--nitro-custom-angle`                                                       | Any [CSS-recognised angle](https://developer.mozilla.org/en-US/docs/Web/CSS/angle).        | `180deg`               |
+| Custom gradient colours | `--nitro-custom-color-1`, `--nitro-custom-color-2`, `--nitro-custom-color-3` | Any [CSS-recognised colour](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value). | `red`, `green`, `blue` |
 
 ### BetterDiscord
 1. Open `Settings` > `BetterDiscord` > `Themes`.
 2. Click the pencil icon on this theme.
-3. Edit the variable values and save changes.
+3. Comment out unwanted lines and save changes.
 
 ### Replugged
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-2. Copy and paste lines 30-36 of [`Nitrate.theme.css`](https://github.com/MiniDiscordThemes/blob/main/Nitrate.theme.css).
-3. Edit the variable values and apply changes.
+2. Copy and paste lines 15-59 of [`Nitrate.theme.css`](https://github.com/MiniDiscordThemes/blob/main/Nitrate.theme.css).
+3. Comment out unwanted lines and apply changes.
 
 ### Vencord
 #### Standard method
@@ -55,8 +56,8 @@
 #### Recommended method
 1. Open `Settings` > `Vencord` > `Vencord`.
 2. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
-3. Copy and paste lines 30-36 of [`Nitrate.theme.css`](https://github.com/MiniDiscordThemes/blob/main/Nitrate.theme.css).
-4. Edit the variable values.
+3. Copy and paste lines 15-59 of [`Nitrate.theme.css`](https://github.com/MiniDiscordThemes/blob/main/Nitrate.theme.css).
+4. Comment out unwanted lines.
 
 ## License
 [MIT License](https://github.com/MiniDiscordThemes/Nitrate/blob/main/LICENSE)

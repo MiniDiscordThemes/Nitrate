@@ -14,5 +14,5 @@
     },
     "license": "MIT",
     "type": "replugged-theme",
-    "main": "scss/nitro.scss"
+    "main": "Nitrate.theme.css"
 }

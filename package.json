@@ -1,25 +1,29 @@
 {
-    "name": "nitrate-discord-theme",
-    "version": "1.0.0",
-    "description": "A knockoff Nitro gradient Discord theme.",
-    "repository": "https://github.com/MiniDiscordThemes/Nitrate.git",
-    "author": "Saltssaumure <saltssaumure@gmail.com>",
-    "license": "MIT",
-    "private": true,
-    "scripts": {
-        "dev": "bd-scss dev",
-        "bd": "bd-scss build",
-        "plug": "replugged build theme",
-        "bundle": "replugged bundle theme"
-    },
-    "type": "module",
-    "dependencies": {
-        "@parcel/config-default": "^2.8.3",
-        "@parcel/core": "^2.8.3",
-        "@parcel/transformer-sass": "^2.8.3",
-        "@types/node": "^18.11.15",
-        "prettier": "^2.8.1",
-        "replugged": "^4.2.1",
-        "salt-bd-scss": "^1.0.0"
-    }
+  "name": "nitrate-discord-theme",
+  "version": "1.1.0",
+  "description": "A knockoff Nitro gradient Discord theme.",
+  "repository": "github:MiniDiscordThemes/Nitrate",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "bd-scss dev",
+    "dev:rp": "replugged build theme --watch",
+    "dev:vc": "bd-scss dev:vc",
+    "bd": "bd-scss build",
+    "rp": "replugged bundle theme",
+    "lint": "prettier ./scss --check",
+    "lint:fix": "prettier ./scss --write --log-level warn",
+    "release": "replugged release"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@parcel/config-default": "^2.10.0",
+    "@parcel/core": "^2.10.0",
+    "@parcel/transformer-sass": "^2.10.0",
+    "@types/node": "^20.8.7",
+    "prettier": "^3.0.3",
+    "replugged": "^4.6.5",
+    "salt-bd-scss": "^1.1.0"
+  }
 }

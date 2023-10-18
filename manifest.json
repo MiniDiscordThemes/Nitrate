@@ -1,18 +1,18 @@
 {
-    "id": "net.saltssaumure.Nitrate",
-    "name": "Nitrate",
-    "description": "A knockoff Nitro gradient Discord theme.",
-    "author": {
-        "name": "Saltssaumure",
-        "discordID": "134142022092062720",
-        "github": "Saltssaumure"
-    },
-    "version": "1.0.0",
-    "updater": {
-        "type": "github",
-        "id": "MiniDiscordThemes/Nitrate"
-    },
-    "license": "MIT",
-    "type": "replugged-theme",
-    "main": "Nitrate.theme.css"
+  "id": "net.saltssaumure.Nitrate",
+  "name": "Nitrate",
+  "description": "A knockoff Nitro gradient Discord theme.",
+  "author": {
+    "name": "Saltssaumure",
+    "discordID": "134142022092062720",
+    "github": "Saltssaumure"
+  },
+  "version": "1.1.0",
+  "updater": {
+    "type": "github",
+    "id": "MiniDiscordThemes/Nitrate"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "Nitrate.theme.css"
 }

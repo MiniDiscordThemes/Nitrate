@@ -1,11 +1,11 @@
-preview
+# Packages
+/.parcel-cache
+/node_modules
 
-.parcel-cache
+# Build
+/dist
+/bundle
+/src
 
-node_modules
-package-lock.json
-pnpm-lock.yaml
-
-dist
-bundle
-src
+# Social images
+/preview

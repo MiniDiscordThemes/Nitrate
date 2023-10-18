@@ -1,13 +1,14 @@
-name: Build and deploy CSS for BetterDiscord
+name: Lint
 
 on:
   push:
-    branches:
-      - main
+    branches-ignore:
+      - deploy
+  pull_request:
 
 jobs:
-  build:
-    name: Build CSS
+  run-linters:
+    name: Run linters
     runs-on: ubuntu-latest
 
     steps:
@@ -27,12 +28,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build CSS
-        run: pnpm run bd
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: deploy
-          publish_dir: ./
+      - name: Run linters
+        run: pnpm run lint

@@ -1,4 +1,4 @@
-.appMount-2yBXZl {
+.appMount_fae9dd {
     --bg-overlay-1: linear-gradient(
                 rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-1)),
                 rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-1))
@@ -95,11 +95,11 @@
 }
 
 // Server sidebar
-.scroller-3X7KbA {
+.scroller__3d071 {
     background: var(--bg-overlay-app-frame, var(--background-tertiary));
 }
 
-:is(.form-3gdLxP, .form-3qe0Ni)::before,
-.children-3xh0VB::after {
+.form__13a2c::before,
+.children__32014::after {
     display: none;
 }

@@ -19,11 +19,11 @@
     --bg-overlay-opacity-app-frame: var(--bg-overlay-opacity-4);
 
     // Server icons
-    .circleIconButton_d8df29:not(.selected__5250e) {
+    .circleIconButton__05cf2:not(.selected_aded59) {
         background: rgb(var(--bg-overlay-color-inverse) / var(--bg-overlay-opacity-6));
     }
 
-    .wrapper_d281dd:not(:hover):not(.selected_f5ec8e) .childWrapper__01b9c {
+    .wrapper__8436d:not(:hover):not(.selected_ae80f7) .childWrapper_a6ce15 {
         background: rgb(var(--bg-overlay-color-inverse) / var(--bg-overlay-opacity-6));
     }
 
@@ -31,13 +31,13 @@
         background: var(--bg-overlay-6, var(--background-secondary));
     }
 
-    .expandedFolderBackground__1bec6 {
+    .expandedFolderBackground_b1385f {
         background: rgb(var(--bg-overlay-color-inverse) / var(--bg-overlay-opacity-6));
     }
 
     // Scrollbar
-    .customTheme_db4d28.auto_a48086::-webkit-scrollbar-thumb,
-    .customTheme_db4d28.thin_b1c063::-webkit-scrollbar-thumb {
+    .customTheme_e72fe3.auto_a3c0bd::-webkit-scrollbar-thumb,
+    .customTheme_e72fe3.thin_b1c063::-webkit-scrollbar-thumb {
         background-size: 200vh;
         background-image: linear-gradient(
                 rgb(var(--bg-overlay-color-inverse) / var(--bg-overlay-opacity-4)),
@@ -46,7 +46,7 @@
             var(--custom-theme-background);
     }
 
-    .customTheme_db4d28.auto_a48086::-webkit-scrollbar-track {
+    .customTheme_e72fe3.auto_a3c0bd::-webkit-scrollbar-track {
         background-size: 200vh;
         background-image: linear-gradient(rgb(var(--bg-overlay-color) / 0.4), rgb(var(--bg-overlay-color) / 0.4)),
             var(--custom-theme-background);
